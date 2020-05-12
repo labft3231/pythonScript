@@ -5,12 +5,11 @@
 ### webopen.xaml (uipath python script 실행)
 
 ```
-단순히 실행을 위해서 python버전 정보와 경로등을 지정해야함 
-이것을 python scope에서 함
+단순히 실행을 위해서 python버전 정보와 경로등을 지정해야함 이것을 python scope에서 함
 
 그 후 실행할 script를 설정하는데 이건 load python script에서 지정 가능함
 
-단 메소드로 호출할 경우 아래 조건으로 해야함
+단 메소드로 호출할 경우 아래 조건(main.xaml)의 activity가 필요함
 ```
 <br>
 <br>
@@ -33,11 +32,10 @@ Get python object : method 객체 받아서 return 타입과 return 변수에 �
 ### testDF(uipath pandas 활용 DataFrame TO DataTable)
 
 ```
-Pandas의 DataFrame을 바로 사용할 수 가 없어 .py에서 json을 리턴해주고
-json으로 datatable로 변환
+Pandas의 DataFrame을 바로 사용할 수 가 없어 .py에서 json을 리턴해주고 json으로 datatable로 변환
 
 python에서 excel로 저장하고 excel파일을 uipath에서 읽어도 상관없음
-해당 프로젝트에서는 전자의 방법으로 했음
+(해당 프로젝트에서는 전자의 방법으로 했음)
 ```
 
 
