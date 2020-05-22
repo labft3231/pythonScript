@@ -38,4 +38,5 @@ python에서 excel로 저장하고 excel파일을 uipath에서 읽어도 상관�
 (해당 프로젝트에서는 전자의 방법으로 했음)
 ```
 
-
+#### how to use?
+https://labft3231.github.io/rpa/update/2020/05/12/UiPath-Python-Script/
